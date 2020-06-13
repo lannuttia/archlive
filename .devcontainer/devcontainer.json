@@ -1,5 +1,6 @@
 {
     "name": "Custom Arch Live ISO",
     "dockerFile": "Dockerfile",
+    "runArgs": ["--privileged"],
     "postCreateCommand": "cp -na /usr/share/archiso/configs/releng/. ."
 }
