@@ -1,0 +1,13 @@
+!/airootfs
+/airootfs/*
+!/airootfs/root
+/airootfs/root/*
+!/airootfs/root/customize_airootfs.sh
+/efiboot
+/isolinux
+/syslinux
+/build.sh
+/mkinitcpio.conf
+/pacman.conf
+/work
+/out
