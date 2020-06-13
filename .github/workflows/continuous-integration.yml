@@ -29,7 +29,7 @@ jobs:
       run: pacman -Sy
     
     - name: Install Build Dependencies
-      run: pacman -S archiso
+      run: pacman -S --noconfirm archiso
     
     - name: Copy ISO Profile
       run: cp -na /usr/share/archiso/configs/releng/. .
